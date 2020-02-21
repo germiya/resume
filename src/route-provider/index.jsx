@@ -12,13 +12,13 @@ import  Home from "../components/Home";
     render() {
         return(
             <Switch>
-          <Route path="/about">
+          <Route path="/resume/about">
             <About />
           </Route>
-          <Route path="/home">
+          <Route path="/resume/home">
             <Home />
           </Route>
-          <Route path="/">
+          <Route path="/resume">
             <Home />
           </Route>
         </Switch>

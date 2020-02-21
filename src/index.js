@@ -12,15 +12,15 @@ import configureStore from './store/configure_store';
 document.addEventListener('DOMContentLoaded', () => {
     const node = document.getElementById('root');
     const store = configureStore({});
-    console.log(store)
+   // console.log(store)
     //ReactDOM.render(<App/>, node);
-    /** */
+    
      ReactDOM.render( 
         <Provider store={store}>
           <App />
             </Provider>
 , node);
-    /**/
+    
 })
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

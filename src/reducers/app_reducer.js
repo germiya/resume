@@ -1,7 +1,7 @@
 
 
 const initialState = {
-     name: "Germiya K Jose"
+     name: "Germiya Jose's Profile"
 };
 
 const AppReducer = (state = initialState , action) => {
