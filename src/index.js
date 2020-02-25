@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
+//import * as serviceWorker from './serviceWorker';
 
  
 
@@ -11,7 +11,7 @@ import configureStore from './store/configure_store';
 
 document.addEventListener('DOMContentLoaded', () => {
     const node = document.getElementById('root');
-    const store = configureStore({});
+    const store = configureStore({name:" About: GERMIYA JOSE"});
    // console.log(store)
     //ReactDOM.render(<App/>, node);
     
